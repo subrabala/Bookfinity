@@ -1,0 +1,245 @@
+body{    
+    background-color: #4e8abcd8;
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+.main{
+    display: flex;
+}
+.header{
+    background-color: #03061e;
+    margin: 0px;
+    padding: 0 10px;
+}
+.mini{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    background-color: transparent;
+    font-size: 15px;
+    color: aliceblue;
+    padding: 17px 18px ;
+    border: 0px;
+    position: sticky;
+}
+.mini:hover{
+    text-decoration: underline;
+    transition: 0.2s linear;
+    cursor: pointer;
+    background-color:   #082642;
+}
+.searchbar{
+    margin-right: 10px;
+}
+.search{
+    color: white;
+    height: 15px;
+    width: 15px;
+}
+.search:hover{
+    cursor: pointer;
+}
+
+.maintext{
+    padding-top: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    color: black;
+    height: 75px;
+    width: 750px;
+    margin: 0;
+}
+.subtext{
+    font-family:'Raleway', sans-serif ;
+    color: white;
+    font-size: 30px;
+    height: 70px;
+    width: 660px;
+    margin: 10px 0px;
+}
+
+.Signin{
+    background-color: #03061e;
+    color: rgb(246, 246, 246);
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 40px;
+    padding:10px 20px;
+    /* position: absolute;
+    top:60%;
+    left:4%; */
+    padding-right: 5px;
+    margin-top: 40px;
+    width: 120px;
+    display: flex;
+    text-decoration:none ;
+    transition: 0.2s linear;
+}
+
+.Signin:hover{
+    background-color:  #ffffff;
+    color: #00182f;
+    transition: 0.2s linear;
+    /* filter: invert(100%); */
+}
+.shelf{
+    height: 350px;
+    width: auto;
+    position: relative;
+    top: 20px;
+    left: 30px;
+    padding: 15px;
+    border: white solid 1.5px;
+}
+.shelf1{
+    height: 220px;
+    width: auto;
+    position: relative;
+    bottom: 140px;
+    right: 150px;
+    border:white solid 1.5px ;
+    padding: 15px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 55px;
+    padding-top: 40px;
+}
+.side{
+    color: white;
+    height: 27px;
+    width: auto;
+    padding: 0 18px;
+}
+.book{
+    padding-left: 10px;
+    width: 22px;
+    height: auto;
+    /* filter: invert(100%); */
+    /* padding-right: 0px; */
+}
+.already{
+    padding-left: 1px;
+    font-weight: bolder;
+    margin-top: 8px;
+    font-family: 'Raleway', sans-serif;
+}
+.login{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    font-size: 16px;
+    text-decoration: none;
+    color: #111213;
+}
+.login:hover{
+    text-decoration: underline;
+}
+.searchbar input[type=text],.searchbar input[type=text]:focus{
+    background-color:  #def4ff;
+    padding: 6px;
+    outline:0;
+    border: none;
+    font-size: 12px;
+    border-radius: 25px;
+    padding-right: 50px;
+}
+.searchbar:hover{
+    background-color:rgb(208, 208, 208) ;
+    border: none;
+    border-radius: 25px;
+}
+.searchbar:active{
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+}
+.middle{
+    background-color: #00182f;
+    overflow: hidden;
+    color: #ccedfd;
+    font-family: 'Raleway', 'sans-serif';
+    height: 100px;
+    font-size: 35px;
+    font-style: italic;
+    text-align: center;
+    padding-top: 50px;
+}
+.grr{
+    font-size: 17px;
+    font-family: 'Raleway', 'sans-serif';
+    font-style: italic;
+    position: relative;
+    left: 350px;
+}
+.secondpage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(table.jpg);
+    background-repeat: no-repeat; 
+    background-size: 100%;  
+    opacity: 100%;
+    background-color: #002447;
+}
+
+.firstbox{
+    font-family: 'Roboto', sans-serif;
+    height: 300px;
+    width: 200px;
+    margin: 150px 30px;
+    color: #003060;
+    text-align: left;
+    vertical-align: middle;
+    background-color: #bdd6d9;
+    padding: 20px;
+    box-shadow :0px 0px 20px #0051a1 ; 
+    transition: 0.2s linear;
+}
+.firstbox:hover,
+.firstbox:active{
+    box-shadow :0px 0px 50px #032648 ;
+    transition: 0.2s linear;
+    transform: scale(1.05);
+}
+.badge,
+.playlist,
+.handshake{
+    height: 60px;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+}
+.boxhead{
+    color:#002447 ;
+    text-align: center;
+    font-family: 'Raleway' ,'sans-serif';
+    text-decoration: underline #50464A 1px;
+}
+.footer{
+    background-color: #00182f;
+    padding: 27px;
+    display: flex;
+    line-height: 24px;
+    
+}
+.insta,
+.fb{
+    color: #ffffff;
+}
+.f1
+{
+    padding: 3px 130px;
+}
+.footerel{
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Roboto' ,'sans-serif';
+    text-decoration: none;
+}
+.footerel:hover{
+    text-decoration: underline;
+}
